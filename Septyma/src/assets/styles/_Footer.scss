@@ -1,0 +1,36 @@
+
+.footer {
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+    border-top: solid 0.05rem black;
+    a {
+      text-decoration: none;
+      margin: 0.4rem;
+      color: black;
+      font-size: 1rem;
+      &:hover {
+        color: blue;
+      }
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .footer {
+      width: 100%;
+      flex-direction: column;
+      div {
+        a {
+          flex-direction: row;
+          margin: 1rem;
+        }
+      }
+    }
+  }
+  
