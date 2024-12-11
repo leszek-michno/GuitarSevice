@@ -1,9 +1,10 @@
 
 
 .navbar {
-  border-bottom: solid 0.05rem gray;
+  // border-bottom: solid 0.05rem gray;
   max-width: 1280px;  
-  background-color: white;
+  // background-color: white;
+  background-color: #242424;
   height: 5rem;
   display: flex;
   width: 100%;
@@ -14,7 +15,6 @@
   top: -10px; 
   z-index: 1;
   span {
-    color: rgb(2, 31, 24);
     font-size: 1rem;
   }
   .nav-container {
@@ -40,18 +40,19 @@
   
   .nav-menu {
     display: flex;
-    gap: 1rem;
+    // gap: 1rem;
     list-style: none;
     text-align: center;
-    margin-right: 2rem;
+    // margin-right: 2rem;
     font-family: monospace; 
     
   }
   
   .nav-links {
-    color: black;
+    // color: black;
+    color: #ffffff;
     text-decoration: none;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1rem;
     height: 100%;
   }
   
@@ -60,8 +61,9 @@
     margin-right: 3rem;
     margin-top: 1rem;
     font-size: 1rem;
+    color: #ffffff;
     .active {
-      color: darkred;
+      color: #888341;
     }
   }
   .nav-icon {
@@ -71,7 +73,7 @@
       display: inline-block;
       width: 2rem;
       height: 2rem;
-      color: black;
+      color: #ffffff;
     }
   }
   img {
@@ -97,7 +99,7 @@
         transition: all 0.5s ease;
         text-align: right;
         &.active {
-          background-color: white;
+          background-color: #242424;
           left: 0;
           transition: all 0.5s ease;
           z-index: 1;  
@@ -111,6 +113,7 @@
       .nav-logo.icon {
         width: 2rem;
         height: 2rem;
+        
       }
       .nav-icon {
         display: block;
@@ -121,6 +124,7 @@
         width: 2rem;
         height: 2rem;
         cursor: pointer; 
+        
       }
     }
     }
