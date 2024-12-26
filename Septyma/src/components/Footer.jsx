@@ -36,15 +36,7 @@ export const Footer = () => {
           <a href={"mailto: septymaguitars@gmail.com"}>
             <AiOutlineMail />
           </a>
-          {/* <a
-            href={
-              "https://youtube.com/@handsome-boys-rockabilly?si=zQ2t10qOL_CdzZ8m"
-            }
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <AiFillYoutube />
-          </a>{" "} */}
+
         </div>
 
         <div>copyright@2024lem-son</div>

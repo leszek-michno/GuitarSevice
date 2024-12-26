@@ -1,20 +1,21 @@
 
 .footer {
-    background-color:#242424;;
+    // background-color:#242424;
+    background-color: transparent;
     width: 100%;
     margin: 0 auto;
     padding: 1rem 0;
     display: flex;
     justify-content: space-around;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #ffffff;
-    border-top: solid 0.05rem black;
+    // border-top: solid 0.05rem #3f3d3dbe;
     a {
       text-decoration: none;
       margin: 0.4rem;
       color: #ffffff;
-      font-size: 1rem;
+      font-size: 0.9rem;
       &:hover {
         color: blue;
       }
@@ -23,7 +24,7 @@
   
   @media (max-width: 650px) {
     .footer {
-      width: 100%;
+      width: 90%;
       flex-direction: column;
       div {
         a {

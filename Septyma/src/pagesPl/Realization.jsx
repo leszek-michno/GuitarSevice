@@ -1,4 +1,5 @@
-import '../styles/_Realization.scss'
+
+import '../assets/styles/_Realization.scss'
 
 export const Realization = () => {
   return (
