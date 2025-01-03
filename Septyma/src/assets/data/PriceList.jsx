@@ -1,13 +1,20 @@
-import img1 from "../images/large/setupfr.webp";
-import img2 from "../images/large/setupthom.webp";
-import img3 from "../images/main1.webp";
-import img4 from "../images/large/siodelko.webp";
-import img5 from "../images/large/bridge.webp";
-import img6 from "../images/large/maszynki.webp";
-import img7 from "../images/large/szlif.webp";
-import img8 from "../images/large/jack.webp";
-import img9 from "../images/large/derust.webp";
-import img10 from "../images/large/switch.webp";
+import img1 from "../images/large/1.webp";
+import img2 from "../images/large/2.webp";
+import img4 from "../images/large/4.webp";
+import img6 from "../images/large/6.webp";
+import img7 from "../images/large/7.webp";
+import img8 from "../images/large/8.webp";
+import img9 from "../images/large/9.webp";
+import img12 from "../images/large/12.webp";
+import img13 from "../images/large/13.webp";
+import img14 from "../images/large/14.webp";
+import img15 from "../images/large/15.webp";
+import img16 from "../images/large/16.webp";
+import img18 from "../images/large/18.webp";
+import img19 from "../images/large/19.webp";
+import img20 from "../images/large/20.webp";
+import img21 from "../images/large/21.webp";
+import img22 from "../images/large/22.webp";
 
 
 
@@ -35,7 +42,7 @@ export const PriceList = [
     contents:
       "Setup Standard + głębokie czyszczenie i konserwacja podstrunnicy. Zalecany regularnie i przy zmianie pór roku. Wraz ze zmianą pory roku zachodzi różnica w wilgotności powietrza, która ma wpływ na zachowanie i kondycję drewna. W zależności od poziomu wilgotności, rozszerza się ono i kurczy, czego efektem są wahania w geometrii gryfu. Długotrwałe pozostawienie podstrunnicy bez konserwacji może prowadzić do jej wypaczenia, a w konsekwencji do kosztownych napraw.",
     price: 160,
-    img: img3,
+    hideImg: true,
     
   },
   {
@@ -44,7 +51,7 @@ export const PriceList = [
     contents:
       "Wymiana strun, regulacja krzywizny gryfu, akcji strun i menzury w gitarze z ruchomym mostkiem typu Floyd Rose, Ibanez Edge, Kahler, itp, oraz z mostkiem Evertune",
     price: 220,
-    hideImg: true,
+    img: img4,
   },
   {
     id: 5,
@@ -59,14 +66,14 @@ export const PriceList = [
     name: "Wymiana siodełka",
     contents: "Instalacja, obróbka i regulacja nowego siodełka szyjki.",
     price: 120,
-    img: img4,
+    img: img6,
   },
   {
     id: 7,
     name: "Wymiana mostka",
     contents: "Hardtail, Tune-O-Matic, Floyd Rose.",
     price: 120,
-    img: img5,
+    img: img7,
   },
   {
     id: 8,
@@ -74,7 +81,7 @@ export const PriceList = [
     contents:
       "Wstawienie nowego zestawu kluczy w główce gitary, w razie potrzeby poszerzenie otworów i zakrycie dziur po śrubkach.",
     price: 70,
-    img: img6,
+    img: img8,
   },
   {
     id: 9,
@@ -82,7 +89,7 @@ export const PriceList = [
     contents:
       "Równanie i polerka progów w gitarze ze stałym mostkiem. W zakres usługi wchodzi setup premium.",
     price: 460,
-    img: img7,
+    img: img9,
   },
   {
     id: 10,
@@ -106,28 +113,28 @@ export const PriceList = [
     contents:
       "Usunięcie korozji i zmatowienia z progów, przywrócenie połysku i gładkości.",
     price: 100,
-    img: img9,
+    img: img12,
   },
   {
     id: 13,
     name: "Wymiana gniazda jack",
     contents: "Instalacja nowego gniazda jack.",
     price: 40,
-    img: img8,
+    img: img13,
   },
   {
     id: 14,
     name: "Wymiana przełącznika",
     contents: "Wymiana przełącznika typu toggle lub slide.",
     price: 40,
-    img: img10,
+    img: img14,
   },
   {
     id: 15,
     name: "Potencjometry",
     contents: "Wymiana jednego potencjometra.",
     price: 30,
-    hideImg: true,
+    img: img15,
   },
   {
     id: 16,
@@ -135,7 +142,7 @@ export const PriceList = [
     contents:
       "Wymiana jednego lub więcej przetworników (demontaż, instalacja, połączenie zgodnie z preferencjami i specyfikacją. Doradztwo i dobór odpowiednich podzespołów do usługi.",
     price: 250,
-    hideImg: true,
+    img: img16,
   },
   {
     id: 17,
@@ -149,7 +156,7 @@ export const PriceList = [
     name: "Odrdzewianie",
     contents: "Usunięcie rdzy z podzespołów, konserwacja.",
     price: 100,
-    hideImg: true,
+    img: img18,
   },
   {
     id: 19,
@@ -157,7 +164,7 @@ export const PriceList = [
     contents:
       "Obróbka papierem ściernym i wytrawienie metalowych częsci gitary (np. mostków, maszynek, pokrywek przetworników, zaczepów paska, itd) w oparach kwasu solnego w celu uzyskania efektu relic/vintage.",
     price: 150,
-    hideImg: true,
+    img: img19,
   },
   {
     id: 20,
@@ -165,7 +172,23 @@ export const PriceList = [
     contents:
       "Wyłożenie komór przetworników i elektroniki taśmą miedzianą. Ekranowanie to przydatny zabieg mający na celu zminimalizowanie brumienia gitary. Folia miedzianą tworzy wewnątrz komory klatkę Faradaya, izolując ją od zewnętrznych zakłóceń elektromagnetycznych, które w normalnych okolicznościach przedostają się do sygnału gitary w postaci szumów i brumienia.",
     price: 200,
-    hideImg: true,
+    img: img20,
+  },
+  {
+    id: 21,
+    name: "Wymiana XLR lub Jack",
+    contents:
+      "Instalacja jednej lub dwóch końcówek XLR lub Jack na kablu.",
+    price: 30,
+    img: img21,
+  },
+  {
+    id: 22,
+    name: "Wymiana podstrunnika w gitarze akustycznej",
+    contents:
+      "Dopasowanie oraz obróbka podstrunnika.",
+    price: 120,
+    img: img22,
   },
 ];
 
@@ -194,7 +217,7 @@ export const PriceListEng = [
     contents:
       "Setup standard + deep cleanse and conservation of the fretboard. Recommended regularly and at the change of seasons. As the seasons change, there occurs a difference in air humidity, which affects the behavior and condition of the wood. Depending on the humidity level, it expands and contracts, resulting in fluctuations in the geometry of the neck. Leaving the fingerboard without maintenance for a long time can lead to its warping and, consequently, to costly repairs.",
     price: 160,
-    img: img3,
+    hideImg: true,
     
   },
   {
@@ -203,7 +226,7 @@ export const PriceListEng = [
     contents:
       "String replacement, neck relief, action and intonation setup for guitars equipped with floating tremolo bridge eg. Floyd Rose, Ibanez Edge, Kahler etc, and Evertune bridge",
     price: 220,
-    hideImg: true,
+    img: img4,
   },
   {
     id: 5,
@@ -218,14 +241,14 @@ export const PriceListEng = [
     name: "Nut replacement",
     contents: "Installation, filing and setup of a new nut.",
     price: 120,
-    img: img4,
+    img: img6,
   },
   {
     id: 7,
     name: "Bridge replacement",
     contents: "Hardtail, Tune-O-Matic, Floyd Rose.",
     price: 120,
-    img: img5,
+    img: img7,
   },
   {
     id: 8,
@@ -233,7 +256,7 @@ export const PriceListEng = [
     contents:
       "Inserting a new set of keys into the guitar's headstock, widening the holes if necessary, and covering the screw holes..",
     price: 70,
-    img: img6,
+    img: img8,
   },
   {
     id: 9,
@@ -241,7 +264,7 @@ export const PriceListEng = [
     contents:
       "Fret alignment, filing and polishing for guitars equipped hard tail and tune-o-matic bridge. Service includes Setup Premium.",
     price: 460,
-    img: img7,
+    img: img9,
   },
   {
     id: 10,
@@ -265,28 +288,28 @@ export const PriceListEng = [
     contents:
       "Removing corrosion and dullness from frets, restoring shine and smoothness.",
     price: 100,
-    img: img9,
+    img: img12,
   },
   {
     id: 13,
     name: "Jack replacement",
     contents: "Installation of a new jack input.",
     price: 40,
-    img: img8,
+    img: img13,
   },
   {
     id: 14,
     name: "Switch replacement",
     contents: "nstallation of a new toggle or slide switch.",
     price: 40,
-    img: img10,
+    img: img14,
   },
   {
     id: 15,
     name: "Potentiometer replacement",
     contents: "Installation of one potentiometer.",
     price: 30,
-    hideImg: true,
+    img: img15,
   },
   {
     id: 16,
@@ -294,7 +317,7 @@ export const PriceListEng = [
     contents:
       "Installation of one or a set of pickups. Wiring according to individual specs. Consulting and selection of appropriate components for the service.",
     price: 250,
-    hideImg: true,
+    img: img16,
   },
   {
     id: 17,
@@ -308,7 +331,7 @@ export const PriceListEng = [
     name: "Rust removal",
     contents: "Removing rust from components, maintenance.",
     price: 100,
-    hideImg: true,
+    img: img18,
   },
   {
     id: 19,
@@ -316,7 +339,7 @@ export const PriceListEng = [
     contents:
       "Processing with sandpaper and etching metal parts of the guitar (e.g. bridges, headstock, pickup covers, strap buttons, etc.) in hydrochloric acid fumes to obtain a relic/vintage effect.",
     price: 150,
-    hideImg: true,
+    img: img19,
   },
   {
     id: 20,
@@ -324,6 +347,22 @@ export const PriceListEng = [
     contents:
       "lining the pickups and electronics chambers with copper tape. Shielding is a useful technique to minimize the hum of a guitar. The copper foil creates a Faraday cage inside the chamber, isolating it from external electromagnetic interference that would normally enter the guitar signal in the form of noise and hum.",
     price: 200,
-    hideImg: true,
+    img: img20,
+  },
+  {
+    id: 21,
+    name: "XLR or Jack replacement",
+    contents:
+      "Installation of one or two XLR or Jack plugs onto a cable.",
+    price: 30,
+    img: img21,
+  },
+  {
+    id: 22,
+    name: "Bridge nut replacement",
+    contents:
+      "Fitting and filing of the acoustic guitar's bridge nut.",
+    price: 120,
+    img: img22,
   },
 ];

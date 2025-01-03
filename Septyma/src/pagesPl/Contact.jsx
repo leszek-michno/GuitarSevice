@@ -29,7 +29,7 @@ export const Contact = () => {
           >
             <AiOutlineInstagram />
           </a>
-          <a href={"mailto: septymaguitars@gmail.com"}>
+          <a href={"mailto: serwis@septyma.com.pl"}>
             <AiOutlineMail />
           </a>
           </div>

@@ -1,5 +1,4 @@
-import '../assets/styles/_Footer.scss'
-
+import "../assets/styles/_Footer.scss";
 
 import {
   AiOutlineInstagram,
@@ -13,9 +12,7 @@ export const Footer = () => {
     <>
       <div className="footer">
         <div>
-          <a href={"mailto: septymaguitars@gmail.com"}>
-          septymaguitars@gmail.com
-          </a>
+          <a href={"mailto:serwis@septyma.com.pl"}>serwis@septyma.com.pl</a>
         </div>
 
         <div className="social-media">
@@ -36,7 +33,6 @@ export const Footer = () => {
           <a href={"mailto: septymaguitars@gmail.com"}>
             <AiOutlineMail />
           </a>
-
         </div>
 
         <div>copyright@2024lem-son</div>
@@ -44,6 +40,3 @@ export const Footer = () => {
     </>
   );
 };
-
- 
-
